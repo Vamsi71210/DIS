@@ -1,5 +1,12 @@
 <!DOCTYPE html>
 <head>
+    <style>
+        body{background-color: aqua;}
+        h1{color:rgb(211, 40, 40);}
+        p{color:rgb(255,0,0)}
+        table, th, td{border:1px solid black;}
+        th, td{background-color: beige;}
+    </style>
     <body>
         <h1>size1</h1>
         <h2>size2</h2>
@@ -16,5 +23,45 @@
         <br><br>
         <img src="img/R.jfif" alt="Picture of a landscape" width="300" height="200">
         <p style="color:rgb(255,0,0)">This is a red paragraph</p>
+        <p title="this is a tooltip"></p>
+        <table style="width:100%">
+            <tr>
+                <th>Company</th>
+                <th>Contact</th>
+                <th>Country</th>
+            </tr>
+            <tr>
+                <td>Widget Company</td>
+                <td>Vamsi Bhargav</td>
+                <td>USA</td>
+            </tr>
+            <tr>
+                <td>Raymond James</td>
+                <td>Dave 2D</td>
+                <td>India</td>
+            </tr>
+        </table>
+        <ul>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Drink</li>
+        </ul>
+        <ol>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Drink</li>
+        </ol>
+        <form>
+            <label for="first_name">First Name</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="last_name">Last Name</label><br>
+            <input type="text" id="lname" name="lname"><br><br>
+            <input type="radio" id=""html" name="fav_language" value="HTML">
+            <label for="html">HTML</label>
+            <input type="radio" id="css" name="fav_language" value="CSS">
+            <label for="css">CSS</label>
+            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+            <label for="javascript">JavaScript</label>
+        </form>
     </body>
 </head>
